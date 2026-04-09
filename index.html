@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="synthwave">
+<html lang="es" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -44,13 +44,13 @@
 
 
       <div class="izq w-3/12">
-        <img id="foto" class=" rounded" src="https://anselmovalenzuela.github.io/img/img-anselmo.jpg" alt="">
+        <img id="foto" class=" rounded-3xl" src="/assets/face-3.jpg" alt="">
         <div id="redes" class="flex flex-wrap ">
-          <a href="" class="text-[2rem] w-full hover:text-accent">
+          <a href="" class="text-[2rem] w-full hover:text-yellow-700">
             <i class="fa-brands fa-linkedin"></i>
             LinkedIn
           </a>
-          <a href="" class="text-[2rem] w-full hover:text-accent">
+          <a href="https://github.com/leandrodziej-dev" class="text-[2rem] w-full hover:text-yellow-700">
             <i class="fa-brands fa-github"></i>
             github
           </a>
@@ -59,7 +59,7 @@
 
 
       <div id="side-data" class="w-7/12">
-        <div id="name" class="heading font-black leading-[0.8]">Anselmo</div>
+        <div id="name" class="heading font-black leading-[0.8]">Leandro</div>
         <div id="contact" class="text-xl flex gap-5">
           <p id="charge" class="text-primary text-xl">Developer</p>
           <p id="punto">·</p>
@@ -68,7 +68,7 @@
         </div>
 
 
-        <div class="bio text-accent text-xl mt-5">
+        <div class="bio text-cyan-300 text-xl mt-5">
           Soy un desarrollador apasionado por la creación de experiencias digitales únicas.
           Me motiva transformar ideas en proyectos funcionales y atractivos, combinando diseño
           y tecnología para lograr soluciones que impacten positivamente. Disfruto aprender
@@ -83,7 +83,7 @@
       <div class="card w-2/6 bg-base-200 shadow-xl">
         <div class="card-body">
           <h2 id="experiencias" class="heading card-title text-5xl mb-3">Experiencia</h2>
-          <p class="text-secondary text-xl">Más de 5 años liderando proyectos de desarrollo web, gestionando
+          <p class="text-sky-600 text-xl">Más de 5 años liderando proyectos de desarrollo web, gestionando
             equipos multidisciplinarios y asegurando la entrega de soluciones tecnológicas innovadoras en tiempo
             y forma.</p>
         </div>
@@ -93,7 +93,7 @@
       <div class="card w-2/6 bg-base-200 shadow-xl">
         <div class="card-body">
           <h2 id="educacion" class="heading card-title text-5xl mb-3">Educación</h2>
-          <p class="text-secondary text-xl">Licenciatura en Ingeniería en Sistemas de Información, Universidad
+          <p class="text-sky-600 text-xl">Licenciatura en Ingeniería en Sistemas de Información, Universidad
             Nacional de Rosario. Cursos complementarios en metodologías ágiles, UX/UI y análisis de datos.</p>
         </div>
       </div>
@@ -102,11 +102,21 @@
       <div class="card w-2/6 bg-base-200 shadow-xl">
         <div class="card-body">
           <h2 id="habilidades" class="heading card-title text-5xl mb-3">Habilidades</h2>
-          <p class="text-secondary text-xl">Dominio de HTML, CSS, JavaScript y frameworks modernos. Experiencia en
+          <p class="text-sky-600 text-xl">Dominio de HTML, CSS, JavaScript y frameworks modernos. Experiencia en
             liderazgo, comunicación efectiva y resolución de problemas complejos. Capacidad para adaptarse
             rápidamente a nuevas tecnologías.</p>
         </div>
       </div>
+
+        <div class="card w-2/6 bg-base-200 shadow-xl">
+        <div class="card-body">
+          <h2 id="habilidades" class="heading card-title text-5xl mb-3">Tecnologías</h2>
+          <p class="text-sky-600 text-xl">Dominio de HTML, CSS, JavaScript y frameworks modernos. Experiencia en
+            liderazgo, comunicación efectiva y resolución de problemas complejos. Capacidad para adaptarse
+            rápidamente a nuevas tecnologías.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -183,9 +193,9 @@
 
 
     tl.from("#name", {
-      xPercent: -40,
+      xPercent: -50,
       // y: "5vh",
-      // scale: 1.2,
+      scale: 0.8,
       duration: 2,
       ease: "power2.inOut"
     }, 0);
